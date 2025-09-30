@@ -1,0 +1,19 @@
+import wollok.game.*
+
+import example.zombie
+import example.jugador
+import example.ak47
+
+program ZombiesTheGame {
+	game.title("ZombiesTheGame")
+	game.height(100)
+	game.width(100)
+
+    game.boardGround("fondoZombies.jpeg")
+
+	game.showAttributes(ak47)
+	game.showAttributes(jugador)
+	game.showAttributes(zombie) 
+
+	game.start()
+}
