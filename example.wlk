@@ -39,7 +39,7 @@ object jugador{
   }
 
   method image() = "jugador.jpeg"
-
+  method nombre() = "jugador"
 }
 
 object ak47{
